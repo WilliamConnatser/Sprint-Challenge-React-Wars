@@ -1,0 +1,12 @@
+.character {
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right hsla(0, 0%, 100%, .3), hsla(0, 0%, 50%, .2));
+}
+
+.character .name {
+    background-image: linear-gradient(to top left hsl(0, 0%, 100%), hsl(0, 0%, 85%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
