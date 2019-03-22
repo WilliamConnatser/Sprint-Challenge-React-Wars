@@ -1,0 +1,14 @@
+.character-list .character-list-navigation {
+    margin: 0 10px;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    background-image: linear-gradient(to top left hsl(61, 93%, 72%), hsl(0, 0%, 85%));
+    box-shadow: 5px 2px 5px white;
+    outline: none;
+
+    color: black;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 10px grey;
+}

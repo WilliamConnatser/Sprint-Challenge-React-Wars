@@ -1,0 +1,24 @@
+.character {
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right hsla(0, 0%, 100%, .6), hsla(0, 0%, 50%, .4));
+}
+
+@media(max-width: 500px) {
+    .character {
+        width: 80%;
+    }
+}
+
+.character .name {
+    background-image: linear-gradient(to top left hsl(0, 0%, 100%), hsl(0, 0%, 85%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 5px white;
+}
+
+.character .character-attribute-list {
+    list-style-type: none;
+}
