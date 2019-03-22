@@ -14,7 +14,9 @@ export default props => {
             <button className="character-list-navigation" name="next" onClick={ props.pageChangeHandler }>
                 Next
             </button>
-            { characters }
+            <div>
+                { characters }
+            </div>           
         </div>
     )
 } 

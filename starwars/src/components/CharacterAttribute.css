@@ -4,7 +4,7 @@
 
 .character-attributes .attribute-name {
     text-transform: uppercase;
-    text-shadow: 1px 1px 5px grey;
+    text-shadow: 1px 1px 5px gainsboro;
 }
 
 .character-attributes .attribute-value {
