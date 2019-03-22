@@ -1,0 +1,14 @@
+.character-attributes {
+    font-size: 1.4rem;
+}
+
+.character-attributes .attribute-name {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px grey;
+}
+
+.character-attributes .attribute-value {
+    color: lightgoldenrodyellow;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 5px yellow;
+}
